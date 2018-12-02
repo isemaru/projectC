@@ -1,0 +1,12 @@
+html {
+    background: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+label, input[type='checkbox'] {
+    cursor: pointer;
+}
+
+label, input[type='submit'] {
+    cursor: pointer;
+}
