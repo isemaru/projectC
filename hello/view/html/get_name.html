@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+   <meta charset="UTF-8">
+   <title></title>
+   <style>
+.centering_parent {
+   line-height:600px;
+   text-align:center;
+}
+
+.centering_item {
+   /*margin-top: 250px;*/
+   display:inline-block;
+   vertical-align: middle;
+   padding: 30px 400px;
+   line-height:normal;
+   background: #64B7CC;
+   color: azure;
+   font-size:20px;
+   font-family: cursive;
+}
+   </style>
+</head>
+<body>
+<div class="centering_parent">
+   <div class="centering_item">
+       <form action="http://localhost:8000/for/" method="get">
+           <label>Input:<input type="text" size="20" name="your_name"></label>
+           <input type="submit" value="submit">
+       </form>
+   </div>
+</div>
+</body>
+</html>
